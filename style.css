@@ -1,0 +1,73 @@
+html,body {
+    font-family: Raleway;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    position:absolute;
+    color: white;
+    background: linear-gradient(25deg,#dfe6e9,#55efc4);
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+  }
+  .container  {
+    width:100%;
+    height:100%;
+    position:absolute;
+  }
+  #blurCanvasTop{
+    position:absolute;
+  }
+  #blurCanvasBottom{
+    left:30%;
+    top:0;
+    position:absolute;
+  }
+  .content {
+    left:15%;
+    top:20%;
+    width:70%;
+    position:relative;
+  }
+  
+  .blur {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+  }
+  .blurTop{
+    left:40%;
+    top:-110%;
+    transform:rotate(20deg);
+    transform-origin: 0 100%;
+  }
+  .blurBottom{
+    left:-60%;
+    top:100%;
+    transform:rotate(20deg);
+    transform-origin: 100% 0%;
+  }
+
+.intro{
+    font-size: 30px;
+}
+
+.typewrite{
+    font-size: 20px;
+}
+
+.quote{
+    font-size: 15px;
+}
+
+  @media (min-width: 576px) {
+      .intro{
+          font-size: 100%;
+      }
+
+      .typewrite{
+          font-size: 50px;
+      }
+      .quote{
+        font-size: 22px;
+    }
+  }
